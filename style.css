@@ -1,0 +1,44 @@
+:root {
+    --green: #538d4e;
+    --gray: #3a3a3c;
+    --yellow: #b59f3b;
+}
+
+body {
+    background-color: #121213;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #3a3a3c;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.gamearea {
+    font-size: 32px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3a3a3c;
+    margin-bottom: 5px;
+}
